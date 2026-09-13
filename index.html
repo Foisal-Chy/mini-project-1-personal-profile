@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Personal Profile</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Md.Foisal Hossen Chowdhury</h1>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about-container">
+          <img
+            src="images/profile.jpeg"
+            alt="Profile picture of Foisal Hossen" />
+
+          <div>
+            <p>
+              Assalamualaikum! I am <b>Md.Foisal Hossen Chowdhury</b>, a CSE
+              student at
+              <i> International Islamic University Chittagong.</i>
+            </p>
+
+            <p>
+              I am interested in programming and development. Currently, I am
+              learning HTML, CSS, Javascript, DSA.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="myskills">
+          <div class="skill">
+            <h3>C</h3>
+            <p>Programming Fundamentals</p>
+          </div>
+
+          <div class="skill">
+            <h3>C++</h3>
+            <p>Object-Oriented Programming</p>
+          </div>
+
+          <div class="skill">
+            <h3>HTML5</h3>
+            <p>Website Structure</p>
+          </div>
+
+          <div class="skill">
+            <h3>CSS</h3>
+            <p>Website Styling</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+          <article class="project-card">
+            <h3>Save the Bird🐦</h3>
+
+            <p>
+              A console-based game inspired by Flappy Bird, developed using C
+              programming. The player controls the bird and tries to avoid
+              obstacles and achieve a higher score.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <h3>Cafe Management System☕</h3>
+
+            <p>
+              A desktop-based cafe management system developed using the Qt
+              Framework. It provides a graphical user interface for managing
+              cafe-related operations.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email: foisal922@gmail.com</p>
+
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your full name"
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+          />
+
+          <label for="message">Message:</label>
+
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Write your message here..."
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy 2026 Md.Foisal Hossen Chowdhury. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
